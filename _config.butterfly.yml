@@ -261,7 +261,7 @@ addtoany:
 comments:
   # Up to two comments system, the first will be shown as default
   # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo/Giscus/Remark42
-  use: Livere,Valine # Valine,Disqus
+  use: Waline
   text: true # Display the comment name next to the button
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
   # If you set it to true, the comment count will be invalid
@@ -286,7 +286,7 @@ disqusjs:
 # livere (來必力)
 # https://www.livere.com/
 livere:
-  uid: MTAyMC81Njk4MS8zMzQ0NQ==
+  uid:
 
 # gitalk
 # https://github.com/gitalk/gitalk
@@ -301,9 +301,9 @@ gitalk:
 # valine
 # https://valine.js.org
 valine:
-  appId: hL7DhauMz6KiG677JsSjz6P7-gzGzoHsz # leancloud application app id
-  appKey: dtPHeLWjRvxcHTFq14fH4vJ7 # leancloud application app key
-  avatar: keithw # gravatar style https://valine.js.org/#/avatar
+  appId: # leancloud application app id
+  appKey: # leancloud application app key
+  avatar: # gravatar style https://valine.js.org/#/avatar
   serverURLs: # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
   bg: # valine background
   visitor: false
@@ -312,7 +312,7 @@ valine:
 # waline - A simple comment system with backend support fork from Valine
 # https://waline.js.org/
 waline:
-  serverURL: # Waline server address url
+  serverURL: https://walinedata-self.vercel.app # Waline server address url
   bg: # waline background
   pageview: false
   option:
